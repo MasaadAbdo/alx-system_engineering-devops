@@ -1,2 +1,2 @@
 #!/bin/bash
-lz rm*
+$ alias L=" ls –rm*"

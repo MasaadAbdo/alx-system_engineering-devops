@@ -1,20 +1,20 @@
 #!/usr/bin/env bash
-# Displays information about the file `holbertonschool`.
+# Displays information about the file `best school`.
 
-if [ -e "holbertonschool" ]
+if [ -e "best school" ]
 then
-  echo "holbertonschool file exists"
-  if [ -s "holbertonschool" ]
+  echo "best school file exists"
+  if [ -s "best school" ]
   then
-    echo "holbertonschool file is not empty"
+    echo "best school file is not empty"
   else
-    echo "holbertonschool file is empty"
+    echo "best school file is empty"
   fi
 
-  if [ -f "holbertonschool" ]
+  if [ -f "best school" ]
   then
-    echo "holbertonschool is a regular file"
+    echo "best school is a regular file"
   fi
 else
-  echo "holbertonschool file does not exist"
+  echo "best school file does not exist"
 fi

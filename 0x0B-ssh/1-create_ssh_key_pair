@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-#!/urs/bin/env bash
-# generating ssh 
+#!/usr/bin/env bash
+# generating ssh rsa
 
-ssh-keygen -t rsa -b 4096 -p bett -f school
-=======
-#!usr/bin/env bash
-# using ssh
-
-ssh-keygen -t rsa -b 4096 -p betty -f shool
->>>>>>> a3d806a6978dd726b08ecc9ee000b791a9693721
+ssh-keygen -t rsa -b 4096 -P betty -f school
